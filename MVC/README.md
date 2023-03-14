@@ -14,7 +14,7 @@ Uma importante observação é que a boa parte das aplicações atuais são dese
 
 ### Exemplo de uma aplicação
 Há um exemplo simples de uma aplicação, em Python, desenvolvida no padrão MVC. Há um arquivo (`db.txt`), que simula o nosso banco de dados de pessoas, a classe Pessoa (no arquivo `model.py`), representa todas as pessoas do nosso pequeno banco de dados. A dinâmic da aplicação pode ser vsta no diagrama de sequência abaixo:
-![diagrama_sequencia]([https://raw.githubusercontent.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/main/MVC/mvc_modelo.png])
+![diagrama_sequencia](https://raw.githubusercontent.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/main/MVC/mvc_modelo.png)
 Para executar a aplicaçao:
 * `python3 controller.py`
 
