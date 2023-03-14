@@ -11,3 +11,10 @@ Responsável por intermediar as requisições de dados das classes modelo e o la
 A visão, trata-se do "fronte" de uma aplicação, podendo ser gráfica ou não. Essa camada é responsável por apresentar as informações de forma visual ao usuário. Em seu desenvolvimento devem ser aplicados apenas recursos ligados a aparência como mensagens, botões ou telas. 
 
 Uma importante observação é que a boa parte das aplicações atuais são desenvolvidos em frameworks (e não em uma linguagem de programação "nativa") e boa parte destes frameworks são projetados para que as aplicações sejam desenvolidas no padrão MVC.
+
+### Exemplo de uma aplicação
+Há um exemplo simples de uma aplicação, em Python, desenvolvida no padrão MVC. Há um arquivo (`db.txt`), que simula o nosso banco de dados de pessoas, a classe Pessoa (no arquivo `model.py`), representa todas as pessoas do nosso pequeno banco de dados. A dinâmic da aplicação pode ser vsta no diagrama de sequência abaixo:
+![diagrama_sequencia]([https://upload.wikimedia.org/wikipedia/commons/7/75/Unicast.svg](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/blob/main/MVC/mvc_modelo.png))
+Para executar a aplicaçao:
+* `python3 controller.py`
+
