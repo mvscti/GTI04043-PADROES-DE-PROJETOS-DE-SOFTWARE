@@ -6,7 +6,7 @@ A disciplina é baseada nos conceitos do livro "Design Patters" (Padrões de Pro
 ![livro_gangue dos quatro](https://raw.githubusercontent.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/main/gof_capa.jpeg)
 
 
-O repositório está dividido em temas, como [padrão MVC](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/MVC) e especificamente referente aos padrões do catálogo da GoF, [padrões de criação](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes_criacao), [padrões estruturais](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes_estruturais) e [padrões comportamentais](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes_comportamentais).
+O repositório está dividido em temas, como [padrão MVC](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/MVC) e especificamente referente aos padrões do catálogo da GoF, [padrões de criação](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao), [padrões estruturais](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/estruturais) e [padrões comportamentais](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/comportamentais).
 
 
 
