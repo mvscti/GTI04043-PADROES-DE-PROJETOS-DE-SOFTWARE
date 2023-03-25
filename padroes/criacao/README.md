@@ -8,4 +8,4 @@ Os padrões de criação a serem estudados são:
 * Builder
 * Factory Method
 * Prototype
-* [Object pool] (https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao/objectpool)
+* [Object pool](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao/objectpool)

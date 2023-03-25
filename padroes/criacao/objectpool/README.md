@@ -5,7 +5,7 @@ O padrão <strong>object pool</strong> (também conhecido como pool de recursos)
 ## Exemplo
 O object pool é semelhante a um almoxarifado de um escritório. Quando um novo (a) funcionário (a) é contratado (a), o (a) gerente (a) do escritório deve preparar um espaço de trabalho para ele (a). Ele (a) calcula se há ou não um equipamento sobressalente no depósito do escritório. Se sim, ele (a) usa. Caso contrário, ele (a) faz um pedido para comprar novos equipamentos. No caso de um (a) funcionário (a) ser demitido (a), seu equipamento é transferido para o depósito, onde poderá ser levado quando for necessário um novo local de trabalho.
 
-[exemplo_object_pool](https://sourcemaking.com/files/v2/content/patterns/Object_pool_example1.png)
+[!exemplo_object_pool](https://sourcemaking.com/files/v2/content/patterns/Object_pool_example1.png)
 
  ## Casos de Uso
  Suponha que um programa acesse um Banco de Dados utilizando uma rede. A ideia é que cada
