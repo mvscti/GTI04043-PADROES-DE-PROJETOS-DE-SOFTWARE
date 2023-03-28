@@ -6,6 +6,6 @@ Os padrões de criação a serem estudados são:
 * [Singleton](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao/singleton)
 * Abstract Factory
 * Builder
-* Factory Method
+* [Factory Method](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao/factorymethod)
 * Prototype
 * [Object pool](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao/objectpool)
