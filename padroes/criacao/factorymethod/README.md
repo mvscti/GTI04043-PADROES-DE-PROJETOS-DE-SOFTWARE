@@ -16,6 +16,3 @@ que devem ser criados.
 objetos que devem ser criados.
 * Necessidade de delegar responsabilidade para classes
 auxiliares.
-
-## Estrutura
-Uma definição bem comum do  método de fábrica é: um método ```static``` de uma classe, que retorna um objeto do tipo dessa classe. Mas, ao contrário de um construtor, o objeto real que ele retorna pode ser uma instância de uma subclasse. Ao contrário de um construtor, um objeto existente pode ser reutilizado, em vez de um novo objeto ser criado. Ao contrário de um construtor, os factory methods podem ter nomes diferentes e mais descritivos (por exemplo, ```Color.make_RGB_color(float vermelho, float verde, float azul)``` e ```Color.make_HSB_color(float tonalidade, float saturação, float brilho)```.
