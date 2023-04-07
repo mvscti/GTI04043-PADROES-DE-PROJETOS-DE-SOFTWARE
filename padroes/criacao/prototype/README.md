@@ -1,7 +1,7 @@
 # Prototype
-O padrão <strong>prototype</strong> é um padrão de projeto criacional que permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes. Pode ser usado para:
+O padrão <strong>prototype</strong> é um padrão de projeto criacional, que permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes. Pode ser usado para:
 
-- Evitar criar um novo objeto utilizando a palavra ```new``` (o que diminui o custo de memória).
+- Evitar criar um novo objeto utilizando o operador ```new``` (o que diminui o custo de memória).
 - Em vez de o cliente implementar um código que utiliza o operador ```new```, este utiliza o método ```clone()```, presente no protótipo e o método de uma fábrica (Factory Method ou Abstratct Factory), que fica encarregada de clonar o novo objeto. 
 
 ## Exemplo
@@ -15,11 +15,17 @@ O padrão Prototype especifica o tipo de objeto a ser criado usando uma instânc
 
 O padrão Prototype delega o processo de clonagem para o próprio objeto que está sendo clonado. O padrão declara uma interface comum para todos os objetos que suportam clonagem. Essa interface permite que você clone um objeto sem acoplar seu código à classe daquele objeto. Geralmente, tal interface contém apenas um único método ```clonar```.
 
-A implementação do método ```clonar``` é muito parecida em todas as classes. <strong>O método cria um objeto da classe atual e carrega todos os valores de campo para do antigo objeto para o novo</strong>. É possível até mesmo copiar campos privados. 
+A implementação do método ```clonar``` é muito parecida em todas as classes. <strong>O método cria um objeto da classe atual e carrega todos os valores de campo do antigo objeto para o novo</strong>. É possível até mesmo copiar campos privados. 
 
 Um objeto que suporta clonagem é chamado de um protótipo. Quando seus objetos têm dúzias de campos e centenas de possíveis configurações, cloná-los pode servir como uma alternativa à subclasses.
 
  ## Forma de implementar
+### Check-list:
+1. Adicione um método ```clone()``` à hierarquia de "produto" existente.
+2. Projete um "registro" que mantenha um cache de objetos protótipos. O registro pode ser encapsulado em uma nova classe ```Factory``` ou na classe base da hierarquia "produto".
+3. Projete um método de fábrica que possa (ou não) aceitar argumentos. Encontre o objeto de protótipo correto para então chame ```clone()``` nesse objeto e retornar o resultado.
+4. O cliente substitui todas as referências ao operador ```new``` por chamadas ao método de fábrica.
+ 
 ```java
 // 1. O "contrato" clone()
 interface Prototype {
