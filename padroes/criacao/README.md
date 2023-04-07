@@ -7,5 +7,5 @@ Os padrões de criação a serem estudados são:
 * Abstract Factory
 * Builder
 * [Factory Method](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao/factorymethod)
-* Prototype
+* [Prototype](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao/prototype)
 * [Object pool](https://github.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/tree/main/padroes/criacao/objectpool)
