@@ -1,7 +1,7 @@
 package padroes.criacao.prototype;
 
 class ReleasePrototype implements Prototype {
-    private String name = "ReleaseCandidate";
+    private String nome = "ReleaseCandidate";
     @Override
     public Prototype clone() {
         return new ReleasePrototype();
@@ -9,11 +9,11 @@ class ReleasePrototype implements Prototype {
 
     @Override
     public String getNome() {
-        return name;
+        return nome;
     }
 
     @Override
     public void executa() {
-        System.out.println(name + ": realiza o trabalho real");
+        System.out.println(nome + ": realiza o trabalho real");
     }
 }

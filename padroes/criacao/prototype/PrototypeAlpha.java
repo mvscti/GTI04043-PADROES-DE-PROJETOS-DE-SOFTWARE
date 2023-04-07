@@ -1,7 +1,9 @@
 package padroes.criacao.prototype;
 
+// 5. "Assina" o contrato clone().
+// Cada classe chama "new" em si mesma para o cliente.
 public class PrototypeAlpha implements Prototype{
-    private String name = "AlphaVersion";
+    private String nome = "AlphaVersion";
 
     @Override
     public Prototype clone() {
@@ -10,11 +12,11 @@ public class PrototypeAlpha implements Prototype{
 
     @Override
     public String getNome() {
-        return name;
+        return nome;
     }
 
     @Override
     public void executa() {
-        System.out.println(name + ": faz alguma coisa");
+        System.out.println(nome + ": faz alguma coisa");
     }
 }

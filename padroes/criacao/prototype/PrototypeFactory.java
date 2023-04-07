@@ -11,14 +11,14 @@ public class PrototypeFactory {
         prototypes.add(p);
     }
 
-    public static Prototype createPrototype(String name) {
+    public static Prototype createPrototype(String nome) {
         // 4. O "construtor virtual"
         for (Prototype p : prototypes) {
-            if (p.getNome().equals(name)) {
+            if (p.getNome().equals(nome)) {
                 return p.clone();
             }
         }
-        System.out.println(name + ": não existe");
+        System.out.println(nome + ": não existe");
         return null;
     }    
 }
