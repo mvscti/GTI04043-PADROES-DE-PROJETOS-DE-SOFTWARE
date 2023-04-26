@@ -1,6 +1,5 @@
 # Adapter
-O padrão de projeto Adapter é necessário quando possuímos dois bjetos que precisam se comunicar mas as suas interfaces são diferentes. O adaptador é responsável por "converter" uma interface
-em outra tornando possível a comunicação entre os objetos.
+O padrão de projeto Adapter é necessário quando possuímos dois objetos que precisam se comunicar, mas as suas interfaces são diferentes. O adaptador é responsável por "converter" uma interface em outra tornando possível a comunicação entre os objetos.
 
 Uma classe adaptadora implementa uma interface conhecida pelos clientes de modo a prover acesso a uma instância de uma classe não conhecida. Um objeto adaptador provê acesso à funcionalidade prometida pela interface sem ter que assumir qual classe é utilizada para implementar essa interface.
 
