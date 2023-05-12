@@ -13,9 +13,9 @@ public class ComputadorFacade {
  
     public void ligarComputador() {
        cpu.start();
-       hardDrive.read(0, 512);
-       memoria.load(0, "DATA");
+       String data=hardDrive.read(0, 512);
+       memoria.load(0, data);
        cpu.execute();
-       memoria.free(0, "DATA");
+       memoria.free(0,data);
     }
- }
+}
