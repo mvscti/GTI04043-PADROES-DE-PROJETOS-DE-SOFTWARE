@@ -5,7 +5,8 @@ objeto e sim com o substituto. O objeto proxy possui a mesma interface do objeto
 <img src="https://refactoring.guru/images/patterns/content/proxy/proxy.png?id=efece4647fb11e3f7539291796327666" />
 
 ## Problema
-Suponha que você tenha um conjunto de objetos que consume uma grande quantidade de recursos do sistema (como por exemplo, um objeto que se conecta em uma base de dados remota. Cada cliente tem o seu) e este objeto é importante, mas você não o utiliza a todo momento.
+Suponha que você tenha um conjunto de objetos que consome uma grande quantidade de recursos do sistema (como por exemplo, um objeto que se conecta em uma base de dados remota. Cada cliente tem o seu) e este objeto é importante, mas você não o utiliza a todo momento.
+
 ![cliente_sem_proxy](https://refactoring.guru/images/patterns/diagrams/proxy/problem-en.png?id=b36e65189e939de5dc809636c1946a43)
 
 O padrão proxy poderia ajudar, fornecendo um proxy (ou seja, um representante) para que todo cliente se conecte a ele. O objeto proxy tem a mesma interface que o objeto ao qual ele representa:
@@ -29,12 +30,15 @@ O padrão proxy poderia ajudar, fornecendo um proxy (ou seja, um representante) 
 
 ![diagrama_classes](https://sourcemaking.com/files/v2/content/patterns/Proxy1.png)
 
-### Exemplo com o mundo real
-Um cartão de crédito é um proxy para uma conta bancária, que é um proxy para dinheiro físico. Ambos implementam a mesma interface: podem ser usados ​​para fazer um pagamento. Isso  pe interessante para o consumidor porque não há necessidade de carregar muito dinheiro em espécie. Isos também é vantajoso para o dono de uma loja, pois a receita de uma transação é adicionada eletronicamente à conta bancária da loja, sem o risco de perder o depósito ou ser roubado no caminho para o banco.
+### Exemplos com o mundo real
+Um cartão de crédito é um proxy para uma conta bancária, que é um proxy para dinheiro físico. Ambos implementam a mesma interface: podem ser usados para fazer um pagamento. Isso  é interessante para o consumidor, porque não há necessidade de carregar muito dinheiro em espécie. Isso também é vantajoso para o dono de uma loja, pois a receita de uma transação é adicionada eletronicamente à conta bancária da loja, sem o risco de perder o depósito ou ser roubado no caminho para o banco.
 
 ![pagamento_proxy](https://sourcemaking.com/files/v2/content/patterns/Proxy_example1.png)
 
-O código do exemplo deste repositório demonstra o uso de um cache proxy de um objeto que exibe uma imagem. Antes de executar os fontes, analise o diagrama de classes do exemplo:
+Um outro exemplo do mundo real é uma assistente virtual, que é proxy para um (a) atendente real.
+
+### Código do repositório
+O exemplo deste repositório demonstra o uso de um cache proxy de um objeto que exibe uma imagem. Antes de executar os fontes, analise o diagrama de classes do exemplo:
 
 ![diagrama_classes_exemplo](https://edirlei.com/aulas/poo/POO_Aula_13_GOF_Proxy_Flyweight_2015_files/img_05.png)
 
