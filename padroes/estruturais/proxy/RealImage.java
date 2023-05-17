@@ -8,10 +8,10 @@ public class RealImage implements Image {
     }
     @Override  
     public void display() {  
-        System.out.println("Displaying " + fileName);  
+        System.out.println("Exibindo " + fileName);  
     }
     
     private void loadFromDisk(String fileName){  
-        System.out.println("Loading " + fileName);  
+        System.out.println("Carregando " + fileName);  
     }
 }
