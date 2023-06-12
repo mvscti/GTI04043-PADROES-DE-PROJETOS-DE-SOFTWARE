@@ -9,6 +9,13 @@ alg. baseado no latex, alg. que tenta manter linhas com número igual de element
 
 ![exemplo_algoritmo](exemplo_algoritmo.png)
 
+
+Um outro exemplo de utilização poderia ser no desenvolvimento de um jogo, onde fosse possível determinar, dinamicamente, o comportamento de um personagem (como na imagem segunite):
+
+![exemplo_jogo](exemplo_jogo.jpg)
+
+Neste exemplo, sempre que novos personagens e novos comportamentos surgirem, o jogo estará pronto qualquer alteração.
+
 ## Aplicabilidades
 - Muitas classes relacionadas se diferem apenas no comportamento. Ex: ```java.util.zip``` contém uma interface _Checksum_ que é implementada por dois algoritmos distintos para cálculo de checksum.
 
