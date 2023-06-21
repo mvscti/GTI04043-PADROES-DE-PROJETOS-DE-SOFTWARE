@@ -13,7 +13,7 @@ Um outro exemplo: a rotina diária de um(a) trabalhador(a).
 
 
 ## Aplicabilidades
-- A classe ```java.io.InputStream``` da linguagem Java possui um método ```read()```, que lê um inteiro de um *stream* (não sabemos qual tipo de *stream*. Pode ser de um arquivo, da entrada padrão, da rede, etc.). Alguns métodos da próprria classe utilizam o read (mesmo ele
+- A classe ```java.io.InputStream``` da linguagem Java possui um método ```read()```, que lê um inteiro de um *stream* (não sabemos qual tipo de *stream*. Pode ser de um arquivo, da entrada padrão, da rede, etc.). Alguns métodos da própria classe utilizam o ```read``` (mesmo ele
 não estando implementado). As subclasses concretas (ex: ```FileInputStream```,```SocketInputStream```, etc) implementam o método ```read()``` da forma adequada (mas não precisam implementar todos os outros métodos).
 
 ```java
