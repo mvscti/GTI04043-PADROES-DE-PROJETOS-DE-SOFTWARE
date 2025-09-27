@@ -11,7 +11,7 @@ Essa abordagem não funciona em todos os casos, pois nem todos os objetos podem 
 
 O padrão Prototype especifica o tipo de objeto a ser criado usando uma instância para criar protótipos. Os protótipos de novos produtos geralmente são construídos antes da produção total, mas, neste exemplo, o protótipo é passivo e não participa da própria cópia.  Um exemplo do mundo real onde isso ocorre é com a divisão mitótica de uma célula (resultando em duas células idênticas). Quando uma célula se divide, resultam duas células de genótipo idêntico. Em outras palavras, a célula se clona.
 
-![exemplo_prototype](https://raw.githubusercontent.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/main/padroes/criacao/prototype/prototype_example1.png)
+![exemplo_prototype](https://raw.githubusercontent.com/mvscti/GTI04043-PADROES-DE-PROJETOS-DE-SOFTWARE/main/src/padroes/criacao/prototype/prototype_example1.png)
 
 O padrão Prototype delega o processo de clonagem para o próprio objeto que está sendo clonado. O padrão declara uma interface comum para todos os objetos que suportam clonagem. Essa interface permite que você clone um objeto sem acoplar seu código à classe daquele objeto. Geralmente, tal interface contém apenas um único método ```clonar```.
 
